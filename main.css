@@ -1,0 +1,99 @@
+body {  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    #2800da -11.94%,
+    #554acf 51.32%,
+    #0d0d3d 113.28%
+  );
+
+  color: #fffffe;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+body#sign-up{
+  background: linear-gradient(
+    180deg,
+    #1a01ff -11.94%,
+    #4e15b6 51.32%,
+    #00001f 113.28%
+  );
+}
+
+body#password{
+  background: linear-gradient(
+    180deg,
+    #210af1 -11.94%,
+    #2a00c2 51.32%,
+    #060657 113.28%
+  );
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+p {
+  font-size: 26px;
+}
+
+input {
+  width: 250px;
+  height: 44px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  border: 0;
+  outline-style: none;
+  background: rgba(255, 255, 255, 0.945);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(25px);
+  text-indent: 15px;
+}
+
+button {
+  width: 150px;
+  height: 44px;
+  color: #fffffe;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #020014;
+  border: 0;
+  border-radius: 3px;
+  transition: 0.32s;
+}
+
+button:hover {
+  background-color: rgb(211, 214, 228);
+  text-decoration: underline;
+  color: #05021b;
+  cursor: pointer;
+  width: 180px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+a {
+  color: #fefefe;
+  text-decoration: none;
+  cursor: default;
+}
+
+span:hover {
+  color: #fffffe;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 18px;
+}
