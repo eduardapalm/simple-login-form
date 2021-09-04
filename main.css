@@ -1,4 +1,4 @@
-body {  width: 100vw;
+body {
   background: linear-gradient(
     180deg,
     #2800da -11.94%,
@@ -58,7 +58,7 @@ input {
 
 button {
   width: 150px;
-  height: 44px;
+  min-height: 44px;
   color: #fffffe;
   font-size: 13px;
   font-weight: 700;
