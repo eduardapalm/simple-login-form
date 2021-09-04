@@ -45,7 +45,7 @@ p {
 
 input {
   width: 250px;
-  height: 44px;
+  min-height: 44px;
   margin-bottom: 5px;
   border-radius: 2px;
   border: 0;
@@ -54,7 +54,6 @@ input {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(25px);
   text-indent: 15px;
-  display: block;
 }
 
 button {
